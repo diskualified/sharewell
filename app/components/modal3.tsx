@@ -23,8 +23,13 @@ const Modal = ({ onClose }: { onClose?: () => void }) => {
           subtitle="Lorem Ipsum is wack"
           date="Wednesday, Jun 21, 2023"
           time="07:00pm - 07:30pm EST"
+          secretCool={true}
         />
-        <ModalItem name="Lorem Ipsum" description="Lorem Ipsum" />
+        <ModalItem
+          name="Lorem Ipsum"
+          description="Lorem Ipsum"
+          option3={true}
+        />
         <ModalContent
           content={
             "Lorem Ipsum qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"
@@ -33,6 +38,7 @@ const Modal = ({ onClose }: { onClose?: () => void }) => {
         <ModalFooter
           label="Lorem Ipsum is simply dummy text."
           boxText="Lorem Ipsum"
+          dynamicBoxText={true}
         />
       </div>
     </div>

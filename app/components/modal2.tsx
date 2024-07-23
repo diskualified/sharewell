@@ -24,11 +24,16 @@ const Modal = ({ onClose }: { onClose?: () => void }) => {
           date="Friday, Jun 04, 2023"
           time="09:00pm - 09:30pm PST"
         />
-        <ModalItem name="Lorem Ipsum" description="Lorem Ipsum" />
+        <ModalItem
+          name="Lorem Ipsum"
+          description="Lorem Ipsum"
+          option2={true}
+        />
         <ModalContent
           content={
             "Lorem Ipsum is simply dummy cillum dolore eu fugiat nulla pariatur. cillum dolore eu fugiat nulla pariatur."
           }
+          dynamicWeight={true}
         />
         <ModalFooter
           label="Lorem Ipsum is simply dummy text."

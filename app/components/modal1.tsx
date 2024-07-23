@@ -29,10 +29,14 @@ const Modal = ({ onClose }: { onClose?: () => void }) => {
           content={
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
           }
+          dynamicWeight={true}
         />
         <ModalFooter
           label="Lorem Ipsum is simply dummy text."
           boxText="Lorem Ipsum"
+          isUppercase={true}
+          dynamicLabel={true}
+          dynamicBoxText={true}
         />
       </div>
     </div>
